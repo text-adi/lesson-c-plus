@@ -48,6 +48,9 @@ void RD(){
     cout << viewData(data, _size);
 
     sort(&data[0], &data[size - 1], compare);
+    cout << "Sorted by marks" << endl;
+    std::cout << viewData(data, size);
+    
 
 };
 void RW(Person*& data, int size){

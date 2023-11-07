@@ -1,0 +1,1 @@
+g++ -o build main.cpp && ./build && echo
